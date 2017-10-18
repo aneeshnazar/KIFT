@@ -11,6 +11,9 @@ There is four main parts to the project:
 Idea behind the project is to learn about Sphinx and how to use it to read input from the users voice and output/react with specific behaviors. 
 
 Daniella Gerard https://github.com/dgerard42
+
 Michael Lu https://github.com/Lunairi
+
 Dan Nelson https://github.com/MajorLeeHyper
+
 Aneesh Nazar https://github.com/aneeshnazar
