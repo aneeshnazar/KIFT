@@ -1,0 +1,30 @@
+.ai	{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	border-style: solid;
+	border-color: white;
+	box-shadow: 10px 10px 5px #888888;
+	margin: auto;
+	padding: 0.5rem;
+	height: 500px;
+	width: 900px;
+	background-color: rgba(68, 39, 10, 0.88);
+	background: gray;
+}
+
+.talking {
+	margin: auto;
+	clear: both;
+	text-align: center;
+}
+
+.submit {
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 100%;
+}
+
+.text {
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 10px;
+}

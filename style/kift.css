@@ -1,0 +1,12 @@
+/* ---| No helpers used |--- */
+/* ---| Cells |--- */
+.Bd\(s\,1px\) {border: solid 1px;}
+.Bdrus\(100\%\) {border-radius: 100%;}
+.Bdrus\(10px\) {border-radius: 10px;}
+.Bdrus\(5px\) {border-radius: 5px;}
+.Bg\(grey-6\) {background: rgb(170,170,170);}
+.Bgc\(grey-5\) {background-color: rgb(153,153,153);}
+.H\(1000px\) {height: 1000px;}
+.M\(a\) {margin: auto;}
+.Ta\(c\) {text-align: center;}
+.W\(630px\) {width: 630px;}
