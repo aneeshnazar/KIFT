@@ -1,0 +1,34 @@
+
+# tentative command list. Needs to be processed by http://www.speech.cs.cmu.edu/tools/lmtool-new.html in order to become usable files for 
+
+hello good boy
+who is a good boy
+who's the good boy
+who's a good boy
+who is a good boy
+I'd like to set an alarm for
+Set an alarm for
+I'd like to set a timer for
+Set a timer for
+Make the screen brighter
+make the screen darker
+Turn the lights up
+Turn the lights down
+Search the web for
+Where is
+dgerard
+mlu
+dnelson
+anazar
+logged in
+Send a text message to
+Send an email to
+Play music
+What is the weather for
+Check the weather for
+Did you just poop on the desktop
+Did you poop on the desktop
+Is this your poop
+pee
+piss
+bad dog
