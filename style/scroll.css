@@ -23,12 +23,12 @@
 	overflow-x: hidden;
 	word-wrap: break-word;
 	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.3);
+	border-color: rgba(50, 205, 50, 255);
 	margin: auto;
 	padding: 0.5rem;
 	height: 800px;
 	width: 500px;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 255);
 	/*border-radius: 5px;*/
 }
 
@@ -36,14 +36,18 @@
 	flex: 0 1 45px;
 	position: relative;
 	z-index: 2;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 255);
+	border-style: solid;
+	border-color: rgba(50, 205, 50, 255);
 	color: #fff;
 	padding: 10px 10px 10px 50px;
 }
 
  .push {
 	flex: 0 1 40px;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 255);
+	border-style: solid;
+	border-color: rgba(50, 205, 50, 255);
 	padding: 10px 10px 10px 50px;
 	position: relative;
 }
