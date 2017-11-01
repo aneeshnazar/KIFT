@@ -17,12 +17,13 @@
 	</head>
 
 	<body class="Bg(black) Ff(m)"><br>
-<!-- 	<div class="Fl(l)"> <img src="./img/animated.gif"> </div> -->
-		<div class="D(b) Bd(s,1px) Bdc(#32cd32) Bdrus(5px) H(1000px) W(630px) M(a) botbg">
-			<div class="botheader D(b)">
-				<h1 class="Ta(c) C(#32cd32) D(b)">KIFT - Temporary Layout</h1>
+	<div clas="M(a)">
+		<div class="M(a) animated"> <img src="./img/animated.gif"> </div>
+		<div class="animated Bd(s,1px) Bdc(#32cd32) Bdrus(5px) H(1000px) W(630px) M(a) botbg">
+			<div class="botheader">
+				<p class="Ta(c) C(#32cd32)">KIFT - Temporary Layout</p>
 			</div>
-			<div class="style D(b)" type="style" name="style" id="style">
+			<div class="style" type="style" name="style" id="style">
 			<?php
 				$text = unserialize(file_get_contents('./database/text'));
 				$output = $text;
@@ -42,14 +43,14 @@
 
 			?>
 			</div>
-			<div class="D(b) push Ta(c)">
+			<div class="push Ta(c)">
 				<form action="integrate.php">
 					<input class="Bdrus(10px) C(#32cd32)" type="text" id="text" name="text" placeholder="Test here" /> 
 					<input class="Bdrus(100%) C(#32cd32)" type="submit" id="submit" name="submit" value="Ask"/>
 				</form>
 			</div>
 		</div>
-
+		</div>
 		<script>
 			var scrollbar = document.getElementById("style");
 			scrollbar.scrollTop = scrollbar.scrollHeight;
