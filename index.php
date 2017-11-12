@@ -33,7 +33,7 @@
 	<body class="Bg(black) Ff(m)"><br>
 	<div clas="M(a)">
 		<!-- <div class="M(a) animated"> <img src="./img/animated.gif"> </div> -->
-		<div class="animated Bd(s,1px) Bdc(#32cd32) Bdrus(5px) H(1000px) W(630px) M(a) botbg">
+		<div class="animated Bd(s,1px) Bdc(#32cd32) H(1000px) W(630px) M(a) botbg">
 			<div class="botheader">
 				<p class="Ta(c) C(#32cd32)">
 				<span
@@ -71,7 +71,8 @@
 						{
 							$_SESSION['voice'] = "";
 						}
-							echo '<input class="Bdrus(100%) C(#32cd32)" type="submit" name="ask" value="Ask"/>';
+							// echo '<input class="Bdrus(100%) C(#32cd32)" type="submit" name="ask" value="Ask"/>';
+						echo '<br><button class="raise">TALK TO GOODBOYE</button>';
 					?>
 				</form>
 			</div>
