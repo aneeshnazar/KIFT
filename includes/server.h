@@ -22,5 +22,7 @@ char	*get_output(char *inst);
 char	*tell_joke(void);
 char	*steal_soul(void);
 char	*sing_for_me(void);
+char	*lights_on(char *inst);
+char	*lights_off(char *inst);
 
 #endif

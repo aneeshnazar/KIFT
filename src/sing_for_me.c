@@ -14,5 +14,6 @@
 
 char	*sing_for_me(void)
 {
+	system("sh ./script/sing.script");
 	return (ft_strdup("Singing for you\n"));
 }

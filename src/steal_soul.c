@@ -14,5 +14,6 @@
 
 char	*steal_soul(void)
 {
-	return (ft_strdup("Stealing your soul now\n"));
+	system("sh ./script/death.script");
+	return (ft_strdup("Your soul is now mine\n"));
 }
