@@ -16,13 +16,31 @@
 # include <libft.h>
 # include <time.h>
 
+/*
+** All of these functions are found in the respective .c files in /src
+*/
 char	*get_curr_time(void);
 char	*get_curr_date(void);
 char	*get_output(char *inst);
 char	*tell_joke(void);
 char	*steal_soul(void);
 char	*sing_for_me(void);
+char	*send_email(void);
+char	*set_alarm(void);
+char	*whose_connected(char *inst);
+
+/*
+** change_lights.c
+*/
 char	*lights_on(char *inst);
 char	*lights_off(char *inst);
+
+/*
+** check_stuff.c
+*/
+
+char	*check_weather(char *inst);
+char	*check_events(char *inst);
+char	*check_traffic(char *inst);
 
 #endif
