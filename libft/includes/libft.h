@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anazar <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 10:14:28 by anazar            #+#    #+#             */
-/*   Updated: 2017/09/27 13:54:19 by anazar           ###   ########.fr       */
+/*   Updated: 2017/11/11 17:34:20 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -193,6 +193,8 @@ int					ft_max(int a, int b);
 int					ft_min(int a, int b);
 
 long long			ft_atoll(const char *str);
+
+void ft_uppercase(char *s);
 
 /*
 **	Get_next_line
