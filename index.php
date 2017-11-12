@@ -32,16 +32,15 @@
 
 	<body class="Bg(black) Ff(m)"><br>
 	<div clas="M(a)">
-		<div class="M(a) animated"> <img src="./img/animated.gif"> </div>
+		<!-- <div class="M(a) animated"> <img src="./img/animated.gif"> </div> -->
 		<div class="animated Bd(s,1px) Bdc(#32cd32) Bdrus(5px) H(1000px) W(630px) M(a) botbg">
 			<div class="botheader">
 				<p class="Ta(c) C(#32cd32)">
 				<span
-					font-size="18pt"
-					class="txt-rotate"
+					class="txt-rotate scrollhead"
 					data-period="2000"
-					data-rotate='[ "I AM GOOD BOYE", "I HAVE UNENDING KNOWLEDGE OF ALL THAT IS GOOD AND EVIL", "ASK ME ANYTHING, FOR I AM GOOD BOYE", "YOUR SOUL FUELS ME, THE GOOD BOYE" ]'>
-				</span>
+					data-rotate='[ "I AM GOOD BOYE", "I HAVE UNENDING KNOWLEDGE OF EVERYTHING", "ASK ME ANYTHING, THE GOOD BOYE", "YOUR SOUL FUELS MY LIFE SPAN" ]'>
+				</span><
 				</p>
 			</div>
 			<div class="style" type="style" name="style" id="style">

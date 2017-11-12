@@ -57,6 +57,11 @@
 }
 
 .animated {
-	display: inline-block;
+	/*display: inline-block;*/
 	white-space: nowrap;
+}
+
+.scrollhead {
+	font-size: 150%;
+	font-family: monospace;
 }
