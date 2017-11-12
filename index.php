@@ -67,6 +67,10 @@
 				<form action="./integrate.php">
 				<!-- 	<input class="Bdrus(10px) C(#32cd32)" type="text" id="text" name="text" placeholder="Test here" />  -->
 					<?php
+						if($_SESSION['voice'] == 1)
+						{
+							$_SESSION['voice'] = "";
+						}
 							echo '<input class="Bdrus(100%) C(#32cd32)" type="submit" name="ask" value="Ask"/>';
 					?>
 				</form>
