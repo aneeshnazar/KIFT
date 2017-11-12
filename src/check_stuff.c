@@ -14,8 +14,16 @@
 
 char	*check_weather(char *inst)
 {
-	(void)*inst;
-	return (ft_strdup("Check weather under construction\n"));
+	if (ft_find(inst, "LAS VEGAS") != -1)
+	{
+		system("open https://weather.com/weather/tenday/l/USNV0049:1:US");
+		return (ft_strdup("Here is the weather in Las Vegas\n"));
+	}
+	else
+	{
+		system("open https://weather.com/weather/tenday/l/94538:4:US");
+		return (ft_strdup("Here is the weather in your current area\n"));
+	}
 }
 
 char	*check_events(char *inst)
@@ -34,6 +42,14 @@ char	*check_events(char *inst)
 
 char	*check_traffic(char *inst)
 {
-	(void)*inst;
-	return (ft_strdup("Check traffic under construction\n"));
+	if (ft_find(inst, "LAS VEGAS") != -1)
+	{
+		system("open http://www.ktnv.com/traffic");
+		return (ft_strdup("Here is the traffic in Las Vegas\n"));
+	}
+	else
+	{
+		system("open http://www.localconditions.com/weather-fremont-california/94536/traffic.php");
+		return (ft_strdup("Here is the traffic in your current area\n"));
+	}
 }
