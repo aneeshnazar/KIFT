@@ -40,7 +40,7 @@
 					font-size="18pt"
 					class="txt-rotate"
 					data-period="2000"
-					data-rotate='[ "I Am Good Boye", "I Have Unending Knowledge Of All That Is Good And Evil", "Ask Me Anything, I Am Good Boye", "Your Soul Fuels Me, For I Am The Good Boye" ]'>
+					data-rotate='[ "I AM GOOD BOYE", "I HAVE UNENDING KNOWLEDGE OF ALL THAT IS GOOD AND EVIL", "ASK ME ANYTHING, FOR I AM GOOD BOYE", "YOUR SOUL FUELS ME, THE GOOD BOYE" ]'>
 				</span>
 				</p>
 			</div>
@@ -52,12 +52,12 @@
 				foreach ($output as $key => $out)
 				{
 					echo '<div class="usertalk">
-						<div class="Bd(s,2px) Bdc(#32cd32) talk-bubble round talktextl C(#32cd32)">User: ' . $output[$key]['msg'] . '</div>
+						<div class="Bd(s,2px) Bdc(#32cd32) talk-bubble round talktextl C(#32cd32)"><p>USER: ' . $output[$key]['msg'] . '</p></div>
 						<img src="./img/user.png" class="Bd(s,2px) Bdc(#32cd32) br-100 ba h3 w3 dib" alt="avatar">
 						</div>';
 					echo '<div class="aitalk">
 						<img src="./img/goodboye.png" class="br-100 ba h3 w3 dib Bd(s,2px) Bdc(#32cd32)" alt="avatar">
-						<div class="Bd(s,2px) Bdc(#32cd32) talk-bubble round talktextr C(#32cd32)">AI: ' . $output[$key]['response'] . '</div>
+						<div class="Bd(s,2px) Bdc(#32cd32) talk-bubble round talktextr C(#32cd32)"><p>AI: ' . $output[$key]['response'] . '</p></div>
 						</div>';
 				}
 				file_put_contents('./database/text', serialize($text));

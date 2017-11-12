@@ -261,7 +261,8 @@
 
 .talktextr{
 	padding: 1em;
-	text-align: right;
+	word-wrap: break-word;
+	text-align: left;
 	line-height: 1.5em;
     border-radius: 30px;
 	-webkit-border-radius: 30px;
@@ -270,6 +271,7 @@
 
 .talktextl{
 	padding: 1em;
+	word-wrap: break-word;
 	text-align: left;
 	line-height: 1.5em;
     border-radius: 30px;
@@ -278,11 +280,19 @@
 }
 
 .talktextr p{
+	  white-space: normal;
+   word-wrap: break-word;
+  text-overflow: ellipsis;
+  max-width: 300px;
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
 }
 
 .talktextl p{
+	  white-space: normal;
+   word-wrap: break-word;
+  text-overflow: ellipsis;
+  max-width: 300px;
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
 }
