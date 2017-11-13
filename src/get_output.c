@@ -32,6 +32,8 @@ char	*get_output_cont(char *inst)
 		out = lights_off(inst);
 	else if (ft_find(inst, "CONNECTED") != -1)
 		out = whose_connected(inst);
+	else if ((ft_find(inst, "PLAY") != -1) && (ft_find(inst, "MUSIC") != -1))
+		out = play_music();
 	else
 		out = ft_strdup("Spank me daddy\n");
 	return (out);

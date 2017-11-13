@@ -28,6 +28,7 @@ char	*sing_for_me(void);
 char	*send_email(void);
 char	*set_alarm(void);
 char	*whose_connected(char *inst);
+char	*play_music(void);
 
 /*
 ** change_lights.c
@@ -38,7 +39,6 @@ char	*lights_off(char *inst);
 /*
 ** check_stuff.c
 */
-
 char	*check_weather(char *inst);
 char	*check_events(char *inst);
 char	*check_traffic(char *inst);

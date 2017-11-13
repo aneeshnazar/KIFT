@@ -49,7 +49,7 @@ char	*check_traffic(char *inst)
 	}
 	else
 	{
-		system("open http://www.localconditions.com/weather-fremont-california/94536/traffic.php");
+		system("sh ./script/traffic.script");
 		return (ft_strdup("Here is the traffic in your current area\n"));
 	}
 }

@@ -19,6 +19,7 @@ char	*whose_connected(char *inst)
 	else
 	{
 		system("sh ./script/ipaddress.script");
-		return (ft_strdup("You are connected currently from 42 university. Here is a page displaying your IP location.\n"));
+		return (ft_strdup("You are connected currently from 42 university. \
+			Here is a page displaying your IP location.\n"));
 	}
 }

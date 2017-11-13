@@ -11,7 +11,9 @@
 # **************************************************************************** #
 
 NAME = server
-FILES = main get_output get_curr_time get_curr_date tell_joke sing_for_me steal_soul change_lights check_stuff whose_connected set_alarm send_email
+FILES = main get_output get_curr_time get_curr_date tell_joke sing_for_me \
+		steal_soul change_lights check_stuff play_music whose_connected \
+		set_alarm send_email
 FLAGS = -Wall -Werror -Wextra -Ilibft/includes -Iincludes
 LFLAG = -L libft -lft
 SRC_DIR = src/
