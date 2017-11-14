@@ -1,30 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_find_substrs.c                                  :+:      :+:    :+:   */
+/*   quip.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/11/12 15:16:07 by anazar            #+#    #+#             */
-/*   Updated: 2017/11/12 15:34:10 by anazar           ###   ########.fr       */
+/*   Created: 2017/11/14 15:05:53 by anazar            #+#    #+#             */
+/*   Updated: 2017/11/14 15:07:20 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdarg.h>
-#include <libft.h>
+#include <server.h>
+#include <fcntl.h>
+#include <time.h>
 
-int		ft_find_substrs(char *str, int num, ...)
+char	*quip(void)
 {
-	int	i;
-	va_list	argptr;
+	int		fd;
+	int		i;
+	char	*str;
+	int		val;
 
 	i = 0;
-	va_start(argptr, num);
-	while (i < num)
+	srand(time(0));
+	val = rand() % 100;
+	fd = open("./database/response.csv", O_RDONLY);
+	while (i < val)
 	{
-		if (ft_find(str, va_arg(argptr, char *)) == -1)
-			return (0);
+		get_next_line(fd, &str);
 		++i;
+		ft_strdel(&str);
 	}
-	return (1);
+	get_next_line(fd, &str);
+	str = ft_strjoinfree(str, ft_strdup("\n"));
+	return (str);
 }

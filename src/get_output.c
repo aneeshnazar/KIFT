@@ -6,7 +6,7 @@
 /*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/10 18:17:34 by anazar            #+#    #+#             */
-/*   Updated: 2017/11/11 16:42:33 by anazar           ###   ########.fr       */
+/*   Updated: 2017/11/14 15:07:28 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ char	*get_output_cont(char *inst)
 	else if ((ft_find(inst, "SEARCH") != -1) && (ft_find(inst, "WEB") != -1))
 		out = search_web();
 	else
-		out = ft_strdup("Spank me daddy\n");
+		out = quip();
 	return (out);
 }
 
