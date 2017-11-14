@@ -39,7 +39,7 @@ char	*get_output_cont(char *inst)
 	else if ((ft_find(inst, "SEARCH") != -1) && (ft_find(inst, "WEB") != -1))
 		out = search_web();
 	else
-		out = ft_strdup("Spank me daddy\n");
+		out = ft_strdup("Please try again, could not understand\n");
 	return (out);
 }
 
@@ -47,7 +47,9 @@ char	*get_output(char *inst)
 {
 	char	*out;
 
-	if (ft_find(inst, "TIME") != -1)
+	if ((ft_find(inst, "TIMER") != -1) && (ft_find(inst, "SET") != -1))
+		out = set_alarm();
+	else if (ft_find(inst, "TIME") != -1)
 		out = get_curr_time();
 	else if (ft_find(inst, "WHO ARE YOU") != -1)
 		out = strdup("My name is Goodboye\n");
