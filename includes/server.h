@@ -30,6 +30,7 @@ char	*set_alarm(void);
 char	*whose_connected(char *inst);
 char	*play_music(char *inst);
 char	*check_history(void);
+char	*search_web(void);
 
 /*
 ** change_lights.c

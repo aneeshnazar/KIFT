@@ -36,6 +36,8 @@ char	*get_output_cont(char *inst)
 		out = play_music(inst);
 	else if (ft_find(inst, "HISTORY") != -1)
 		out = check_history();
+	else if ((ft_find(inst, "SEARCH") != -1) && (ft_find(inst, "WEB") != -1))
+		out = search_web();
 	else
 		out = ft_strdup("Spank me daddy\n");
 	return (out);
