@@ -29,6 +29,7 @@ char	*send_email(void);
 char	*set_alarm(void);
 char	*whose_connected(char *inst);
 char	*play_music(char *inst);
+char	*check_history(void);
 
 /*
 ** change_lights.c

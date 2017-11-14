@@ -34,6 +34,8 @@ char	*get_output_cont(char *inst)
 		out = whose_connected(inst);
 	else if (ft_find(inst, "MUSIC") != -1)
 		out = play_music(inst);
+	else if (ft_find(inst, "HISTORY") != -1)
+		out = check_history();
 	else
 		out = ft_strdup("Spank me daddy\n");
 	return (out);
