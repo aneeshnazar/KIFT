@@ -6,7 +6,7 @@
 /*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 10:14:28 by anazar            #+#    #+#             */
-/*   Updated: 2017/11/11 17:34:20 by anazar           ###   ########.fr       */
+/*   Updated: 2017/11/12 16:29:19 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -194,7 +194,9 @@ int					ft_min(int a, int b);
 
 long long			ft_atoll(const char *str);
 
-void ft_uppercase(char *s);
+void				ft_uppercase(char *s);
+
+int					ft_find_substrs(char *str, int num, ...);
 
 /*
 **	Get_next_line
