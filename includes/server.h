@@ -28,7 +28,7 @@ char	*sing_for_me(void);
 char	*send_email(void);
 char	*set_alarm(void);
 char	*whose_connected(char *inst);
-char	*play_music(void);
+char	*play_music(char *inst);
 
 /*
 ** change_lights.c

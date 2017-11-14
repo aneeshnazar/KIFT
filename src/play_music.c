@@ -12,8 +12,18 @@
 
 #include <server.h>
 
-char	*play_music(void)
+char	*play_music(char *inst)
 {
-	system("open -a Spotify.app");
-	return (ft_strdup("I am launching Spotify for your ear pleasure needs\n"));
+	if (ft_find(inst, "PLAY") != -1)
+	{
+		system("afplay ./database/music.mp3 &");
+		return (ft_strdup("Listen to my jam: \
+			A Thousand Mile - By Vanessa Carlton\n"));
+	}
+	else if (ft_find(inst, "STOP") != -1)
+	{
+		system("killall afplay");
+		return (ft_strdup("I've turned off my jam\n"));
+	}
+	return (ft_strdup("Do you want me to play music or stop music?\n"));
 }

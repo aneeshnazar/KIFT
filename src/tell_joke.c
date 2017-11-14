@@ -23,7 +23,7 @@ char	*tell_joke(void)
 
 	i = 0;
 	srand(time(0));
-	val = rand() % 3000;
+	val = rand() % 2981;
 	fd = open("./database/shortjokes.csv", O_RDONLY);
 	while (i < val)
 	{
